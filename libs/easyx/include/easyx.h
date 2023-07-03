@@ -23,7 +23,7 @@
 #ifdef UNICODE
 	#pragma comment(lib,"EasyXw.lib")
 #else
-	#pragma comment(lib,"EasyXa.lib")
+	#pragma comment(lib,"EasyXa.libs")
 #endif
 
 

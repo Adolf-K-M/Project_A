@@ -15,6 +15,7 @@
 		[
 			"add_executable",
 			"link_directories",
+			"target_link_libraries",
 			"include_directories"
 		],
 		"files" : 
@@ -29,19 +30,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 11,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 7,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 6,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 14,
 				"parent" : 0
 			}
 		]
@@ -58,8 +65,8 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
-					"path" : "D:/project/./easyx/include"
+					"backtrace" : 4,
+					"path" : "D:/project_chatgpt/libs/easyx/include"
 				}
 			],
 			"language" : "CXX",
@@ -92,20 +99,22 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LD:\\project\\.\\easyx\\lib64",
+				"fragment" : "-LD:\\project_chatgpt\\libs\\easyx\\lib64",
 				"role" : "libraryPath"
 			},
 			{
-				"fragment" : "-Wl,-Bstatic",
+				"backtrace" : 3,
+				"fragment" : "-lcurl",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 1,
+				"backtrace" : 3,
+				"fragment" : "-lgtest",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
 				"fragment" : "-leasyx",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "-Wl,-Bdynamic",
 				"role" : "libraries"
 			},
 			{
